@@ -2,6 +2,7 @@ var express = require('express');
 var request = require('request');
 var Iconv = require('iconv-lite');
 var { encode } = require('./encoder');
+process.env.NODE_ENV = 'production';
 var app = express();
 
 //设置跨域访问

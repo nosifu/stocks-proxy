@@ -27,6 +27,6 @@ const decode = (input) => {
     return decodeURIComponent(result)
 }
 
-console.log('解码：', decode(input))
+// console.log('解码：', decode(input))
 
 module.exports.decode = decode
